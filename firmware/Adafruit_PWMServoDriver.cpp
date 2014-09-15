@@ -33,11 +33,10 @@
 #endif //Spark
 
 #if defined (SPARK)
-#error "ok"
 int floor(float val) {
-	i = int(val);
-	if (i > val) i--;
-	return i;
+  i = int(val);
+  if (i > val) i--;
+    return i;
 }
 #endif
 
