@@ -32,7 +32,7 @@
 #endif
 #endif //Spark
 
-#if defined (SPARK)
+#if defined (SPARKLE)
 int floor(float val) {
   int i = int(val);
   if (i > val) i--;
