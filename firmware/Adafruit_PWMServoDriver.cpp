@@ -32,13 +32,6 @@
 #endif
 #endif //Spark
 
-#if defined (SPARKLE)
-int floor(float val) {
-  int i = int(val);
-  if (i > val) i--;
-    return i;
-}
-#endif
 
 // Set to true to print some debug messages, or false to disable them.
 #define ENABLE_DEBUG_OUTPUT true
