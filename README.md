@@ -13,6 +13,7 @@ These displays use I2C to communicate, 2 pins are required to
 interface:
 
 For Arduinos:	 SCL -> Analog 5, SDA -> Analog 4
+
 For Spark Core:	 SCL -> D1, SDA -> D0
 
 Credits
