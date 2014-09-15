@@ -9,8 +9,7 @@ The library is compatible with Arduino and Spark Core.
 
 Connections
 -----------
-These displays use I2C to communicate, 2 pins are required to  
-interface:
+These displays use I2C to communicate, 2 pins are required to interface:
 
 For Arduinos:	 SCL -> Analog 5, SDA -> Analog 4
 
