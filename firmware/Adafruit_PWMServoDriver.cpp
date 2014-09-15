@@ -34,7 +34,7 @@
 
 #if defined (SPARK)
 int floor(float val) {
-  i = int(val);
+  int i = int(val);
   if (i > val) i--;
     return i;
 }
