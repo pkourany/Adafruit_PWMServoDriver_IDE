@@ -16,7 +16,7 @@
   
   Adapted for Spark Core by Paul Kourany, Sept. 15, 2014
  ****************************************************/
-#if defined (SPARK)
+#if defined (PARTICLE)
  #define WIRE Wire
  #include <math.h>
  #include "Adafruit_PWMServoDriver.h"
@@ -30,7 +30,7 @@
 #else // Arduino Due
  #define WIRE Wire1
 #endif
-#endif //Spark
+#endif //PARTICLE
 
 
 // Set to true to print some debug messages, or false to disable them.

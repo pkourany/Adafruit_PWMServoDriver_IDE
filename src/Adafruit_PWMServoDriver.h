@@ -20,15 +20,15 @@
 #ifndef _ADAFRUIT_PWMServoDriver_H
 #define _ADAFRUIT_PWMServoDriver_H
 
-#if defined (SPARK)
-#include "application.h"
+#if defined (PARTICLE)
+#include "Particle.h"
 #else
 #if ARDUINO >= 100
  #include "Arduino.h"
 #else
  #include "WProgram.h"
 #endif
-#endif //Spark
+#endif //PARTICLE
 
 
 #define PCA9685_SUBADR1 0x2

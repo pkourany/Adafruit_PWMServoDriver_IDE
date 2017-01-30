@@ -18,8 +18,8 @@
   Adapted for Spark Core by Paul Kourany, Sept. 15, 2014
   ****************************************************/
 
-#if defined (SPARK)
-#include "Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.h"
+#if defined (PARTICLE)
+#include "Adafruit_PWMServoDriver.h"
 #else
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>

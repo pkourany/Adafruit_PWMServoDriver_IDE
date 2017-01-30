@@ -1,7 +1,0 @@
-{
-	"name": "Adafruit_PWMServoDriver",
-	"author": "Limor Fried/Ladyada / Paul Kourany",
-	"version": "1.0.0",
-	"license": "BSD License",
-	"description": "Adafruit 16-channel PWM & Servo driver library adapted for Spark"
-}
